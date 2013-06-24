@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fe3d9c0-3afe-4f1c-8109-21a96c9d5222" name="Default" comment="" />
+    <list default="true" readonly="true" id="7fe3d9c0-3afe-4f1c-8109-21a96c9d5222" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nl/han/dare2date/service/web/ApplyRegistrationServiceEndpoint.java" afterPath="$PROJECT_DIR$/src/main/java/nl/han/dare2date/service/web/ApplyRegistrationServiceEndpoint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="ApplyRegistrationService.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/ValidateCreditcardService.java" changelist="7fe3d9c0-3afe-4f1c-8109-21a96c9d5222" time="1371452695355" ignored="false" />
     <file path="/ConfirmRegistrationService.java" changelist="7fe3d9c0-3afe-4f1c-8109-21a96c9d5222" time="1371452777730" ignored="false" />
-    <file path="/ApplyRegistrationServiceEndpoint.java" changelist="7fe3d9c0-3afe-4f1c-8109-21a96c9d5222" time="1372064514447" ignored="false" />
+    <file path="/ApplyRegistrationServiceEndpoint.java" changelist="7fe3d9c0-3afe-4f1c-8109-21a96c9d5222" time="1372065767506" ignored="false" />
+    <file path="/Dummy.txt" changelist="7fe3d9c0-3afe-4f1c-8109-21a96c9d5222" time="1372065824283" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +25,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -58,6 +61,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -70,7 +74,7 @@
       <file leaf-file-name="ApplyRegistrationServiceEndpoint.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dare2date/service/web/ApplyRegistrationServiceEndpoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="19" selection-start="758" selection-end="758" vertical-scroll-proportion="0.21946564">
+            <state line="44" column="58" selection-start="1819" selection-end="1819" vertical-scroll-proportion="0.8175313">
               <folding />
             </state>
           </provider>
@@ -119,6 +123,13 @@
       </list>
     </option>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <PATH>
@@ -163,7 +174,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -178,91 +188,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spring-ws-jms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ApplyRegistrationService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-ws-jms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ApplyRegistrationService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-ws-jms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ApplyRegistrationService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-ws-jms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
+              <option name="myItemId" value="Dare2DateJMS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -295,6 +228,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -323,17 +269,19 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JettyConfiguration" factoryName="Local">
@@ -352,21 +300,6 @@
       </server-settings>
       <predefined_log_file id="Jetty" enabled="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -532,6 +465,29 @@
     <option name="IGNORE_EXTERNALS" value="false" />
     <configuration useDefault="true">C:\Users\Robbert\AppData\Roaming\Subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\School\Minor AP\Advanced Software Engineering\Dare2DateJMS" />
+          <option name="myCopyRoot" value="D:\School\Minor AP\Advanced Software Engineering\Dare2DateJMS" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\School\Minor AP\Advanced Software Engineering\Dare2DateJMS\.idea" />
+          <option name="myCopyRoot" value="D:\School\Minor AP\Advanced Software Engineering\Dare2DateJMS\.idea" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\School\Minor AP\Advanced Software Engineering\Dare2DateJMS" />
+          <option name="myCopyRoot" value="D:\School\Minor AP\Advanced Software Engineering\Dare2DateJMS" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -539,11 +495,16 @@
       <created>1371108144877</created>
       <updated>1371108144877</updated>
     </task>
+    <task id="LOCAL-00001" summary="registration response is now functional&#10;">
+      <created>1372065832161</created>
+      <updated>1372065832161</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="35" width="1376" height="738" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -556,6 +517,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -563,13 +525,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14469697" sideWeight="0.67064846" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41590908" sideWeight="0.77764976" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21255507" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2060606" sideWeight="0.3686007" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.63139933" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -615,7 +576,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added JMS" />
+    <option name="LAST_COMMIT_MESSAGE" value="registration response is now functional&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -630,6 +591,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="added JMS" />
+    <MESSAGE value="registration response is now functional&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -641,37 +603,27 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dare2date/service/jms/util/Requestor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="21" selection-start="3284" selection-end="3284" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="81" column="21" selection-start="3284" selection-end="3284" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dare2date/service/jms/util/Queues.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="17" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dare2date/service/jms/util/ObserverGateway.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="0" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dare2date/service/jms/util/SubjectGateway.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="4" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="18" column="4" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dare2date/service/jms/util/JMSUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="13" selection-start="2253" selection-end="2253" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="76" column="13" selection-start="2253" selection-end="2253" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dare2date/service/web/ApplyRegistrationServiceEndpoint.java">
@@ -683,44 +635,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dare2date/service/jms/util/JMSUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="13" selection-start="2253" selection-end="2253" vertical-scroll-proportion="0.6060606">
-          <folding />
-        </state>
+        <state line="76" column="13" selection-start="2253" selection-end="2253" vertical-scroll-proportion="0.6060606" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dare2date/service/jms/util/Replier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="105" selection-start="2262" selection-end="2262" vertical-scroll-proportion="0.030303031">
-          <folding />
-        </state>
+        <state line="60" column="105" selection-start="2262" selection-end="2262" vertical-scroll-proportion="0.030303031" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dare2date/service/jms/util/Requestor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="21" selection-start="3284" selection-end="3284" vertical-scroll-proportion="0.15151516">
-          <folding />
-        </state>
+        <state line="81" column="21" selection-start="3284" selection-end="3284" vertical-scroll-proportion="0.15151516" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dare2date/service/jms/util/Queues.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="61" selection-end="61" vertical-scroll-proportion="0.060606062">
-          <folding />
-        </state>
+        <state line="2" column="17" selection-start="61" selection-end="61" vertical-scroll-proportion="0.060606062" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dare2date/service/jms/util/ObserverGateway.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="188" selection-end="188" vertical-scroll-proportion="0.030303031">
-          <folding />
-        </state>
+        <state line="8" column="0" selection-start="188" selection-end="188" vertical-scroll-proportion="0.030303031" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dare2date/service/jms/util/SubjectGateway.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="4" selection-start="462" selection-end="462" vertical-scroll-proportion="0.45454547">
-          <folding />
-        </state>
+        <state line="18" column="4" selection-start="462" selection-end="462" vertical-scroll-proportion="0.45454547" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dare2date/service/web/ValidateCreditcardService.java">
@@ -746,7 +686,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/dare2date/service/web/ApplyRegistrationServiceEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="19" selection-start="758" selection-end="758" vertical-scroll-proportion="0.21946564">
+        <state line="44" column="58" selection-start="1819" selection-end="1819" vertical-scroll-proportion="0.8175313">
           <folding />
         </state>
       </provider>

@@ -22,7 +22,7 @@ public class ApplyRegistrationServiceEndpoint {
 		this.unmarshaller = unmarshaller;
 	}
 
-	@SuppressWarnings( { "unchecked", "deprecation" })
+	@SuppressWarnings( { "unchecked", "deprecation", "unused" })
 	@PayloadRoot(localPart = "ApplyRegistrationRequest", namespace = "http://www.han.nl/schemas/messages")
 	public ApplyRegistrationResponse applyRegistration(ApplyRegistrationRequest req) {
 
@@ -42,7 +42,7 @@ public class ApplyRegistrationServiceEndpoint {
             confirmRegistrationService.confirm(registration);
         }
 
-        // Return the Registration into a Response to SOAPUI
+        // Return the Registration into a Response to SOAP
         registration.setSuccesFul(validationResult);
         ApplyRegistrationResponse response =
                 new ObjectFactory().createApplyRegistrationResponse();
