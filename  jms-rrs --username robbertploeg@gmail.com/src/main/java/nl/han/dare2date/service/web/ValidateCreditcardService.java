@@ -35,9 +35,9 @@ public class ValidateCreditcardService {
             return response.isValid();
         } catch(JMSException e){
             e.printStackTrace();
-        } /*catch(NamingException e){
+        } catch(NamingException e){
             e.printStackTrace();
-        }*/
+        }
 		return false;
 	}
 }
