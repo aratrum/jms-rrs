@@ -15,7 +15,7 @@ public class ValidateCreditcardRequest implements Serializable {
     Creditcard card;
 
     public ValidateCreditcardRequest(Creditcard card) {
-
+        this.card = card;
     }
 
     public Creditcard getCard() {
