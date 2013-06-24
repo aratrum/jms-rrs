@@ -1,17 +1,14 @@
 package nl.han.dare2date.service.web;
 
 import nl.han.dare2date.applyregistrationservice.*;
-
-import nl.han.dare2date.service.jms.util.JMSUtil;
-import nl.han.dare2date.service.jms.util.Queues;
 import org.springframework.oxm.Marshaller;
 import org.springframework.oxm.Unmarshaller;
 import org.springframework.ws.server.endpoint.annotation.Endpoint;
 import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 
-import javax.jms.Connection;
 
 @Endpoint
+@SuppressWarnings( { "unchecked", "deprecation", "unused" })
 public class ApplyRegistrationServiceEndpoint {
 	private Marshaller marshaller;
 	private Unmarshaller unmarshaller;
@@ -22,7 +19,7 @@ public class ApplyRegistrationServiceEndpoint {
 		this.unmarshaller = unmarshaller;
 	}
 
-	@SuppressWarnings( { "unchecked", "deprecation", "unused" })
+
 	@PayloadRoot(localPart = "ApplyRegistrationRequest", namespace = "http://www.han.nl/schemas/messages")
 	public ApplyRegistrationResponse applyRegistration(ApplyRegistrationRequest req) {
 
