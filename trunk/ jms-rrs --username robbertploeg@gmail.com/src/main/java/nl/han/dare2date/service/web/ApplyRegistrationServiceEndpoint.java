@@ -48,6 +48,6 @@ public class ApplyRegistrationServiceEndpoint {
                 new ObjectFactory().createApplyRegistrationResponse();
         response.setRegistration(registration);
 
-		return new ApplyRegistrationResponse();
+		return response;
 	}
 }
