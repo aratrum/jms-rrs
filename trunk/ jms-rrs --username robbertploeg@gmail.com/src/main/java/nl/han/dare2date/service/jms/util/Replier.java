@@ -38,7 +38,7 @@ public abstract class Replier implements MessageListener {
 		MessageListener listener = this;
 		requestConsumer.setMessageListener(listener);
 		invalidProducer = session.createProducer(invalidQueue);
-	}
+    }
 
 	public void onMessage(Message message) {
 		try {
