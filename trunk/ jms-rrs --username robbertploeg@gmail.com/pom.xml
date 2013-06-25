@@ -21,20 +21,40 @@
         <artifactId>maven-jetty-plugin</artifactId>
       </plugin>
       <plugin>
-        <groupId>com.sun.tools.xjc.maven2</groupId>
-        <artifactId>maven-jaxb-plugin</artifactId>
-        <executions>
-          <execution>
-            <phase>generate-sources</phase>
-            <goals>
-              <goal>generate</goal>
-            </goals>
-          </execution>
-        </executions>
-        <configuration>
-          <generatePackage>nl.han.dare2date.applyregistrationservice</generatePackage>
-          <schemaDirectory>src/main/webapp/applyregistrationservice</schemaDirectory>
-        </configuration>
+          <groupId>org.jvnet.jaxb2.maven2</groupId>
+          <artifactId>maven-jaxb2-plugin</artifactId>
+          <version>0.8.0</version>
+          <configuration>
+              <schemaDirectory>src/main/webapp/applyregistrationservice</schemaDirectory>
+              <bindingDirectory>src/main/resources</bindingDirectory>
+              <generatePackage>nl.han.dare2date.applyregistrationservice</generatePackage>
+              <strict>false</strict>
+              <extension>true</extension>
+              <plugins>
+                  <plugin>
+                      <groupId>org.jvnet.jaxb2_commons</groupId>
+                      <artifactId>jaxb2-basics</artifactId>
+                      <version>0.6.2</version>
+                  </plugin>
+                  <plugin>
+                      <groupId>org.jvnet.jaxb2_commons</groupId>
+                      <artifactId>jaxb2-basics-annotate</artifactId>
+                      <version>0.6.2</version>
+                  </plugin>
+              </plugins>
+              <args>
+                  <arg>-Xannotate</arg>
+                  <arg>-XtoString</arg>
+              </args>
+          </configuration>
+          <executions>
+              <execution>
+                  <id>generate</id>
+                  <goals>
+                      <goal>generate</goal>
+                  </goals>
+              </execution>
+          </executions>
       </plugin>
     </plugins>
   </build>
@@ -47,7 +67,13 @@
     </pluginRepository>
   </pluginRepositories>
   <dependencies>
-    <dependency>
+      <dependency>
+          <groupId>org.jvnet.jaxb2_commons</groupId>
+          <artifactId>jaxb2-basics-runtime</artifactId>
+          <version>0.6.2</version>
+      </dependency>
+
+      <dependency>
       <groupId>org.springframework.ws</groupId>
       <artifactId>spring-oxm</artifactId>
       <version>1.5.4</version>
