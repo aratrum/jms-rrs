@@ -30,7 +30,9 @@ public class ApplyRegistrationServiceEndpoint {
 
         // Send the Registration to the ValidateCreditcardService (into a Queue)
         ValidateCreditcardService creditcardService = new ValidateCreditcardService();
+        System.out.println("before cc");
         boolean validationResult = creditcardService.validate(cc);
+        System.out.println("afther cc");
 
         // Send the Registration to the ConfirmRegistrationService (into a Topic)
         // if the Creditcard is valid

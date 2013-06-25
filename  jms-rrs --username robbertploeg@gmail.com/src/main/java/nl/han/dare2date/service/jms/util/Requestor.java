@@ -42,8 +42,11 @@ public abstract class Requestor {
 	}
 
 	public void send() throws JMSException {
-		ObjectMessage requestMessage = getObjectMessage();
+        System.out.println("inside send");
+        ObjectMessage requestMessage = getObjectMessage();
+        System.out.println("inside send 2");
 		requestMessage.setJMSReplyTo(replyQueue);
+        System.out.println("inside send 3");
 		requestProducer.send(requestMessage);
 		System.out.println("Sent request");
 		System.out.println("\tTime:       " + System.currentTimeMillis() + " ms");

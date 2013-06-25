@@ -16,8 +16,6 @@ import javax.naming.NamingException;
  */
 public class ValidateCreditcardRequestor extends Requestor {
     private Creditcard card;
-    private ValidateCreditcardResponse response;
-    private ObjectMessage msg;
 
     public ValidateCreditcardRequestor(Connection connection, String requestQueueName, String replyQueueName, String invalidQueueName, Creditcard card) throws JMSException, NamingException {
         super(connection, requestQueueName, replyQueueName, invalidQueueName);
