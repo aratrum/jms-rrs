@@ -33,7 +33,7 @@ public class ExternalValidateCreditcardReplier extends Replier{
         try{
             msg = getSession().createObjectMessage();
             boolean isValid = false;
-            if(card.getCvc() == 1234 && card.getNumber() == 4321){
+            if(card.getCvc() == 4321 && card.getNumber() == 1234){
                 isValid = true;
             }
             ValidateCreditcardResponse response = new ValidateCreditcardResponse(isValid);

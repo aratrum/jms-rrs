@@ -42,11 +42,8 @@ public abstract class Requestor {
 	}
 
 	public void send() throws JMSException {
-        System.out.println("inside send");
         ObjectMessage requestMessage = getObjectMessage();
-        System.out.println("inside send 2");
 		requestMessage.setJMSReplyTo(replyQueue);
-        System.out.println("inside send 3");
 		requestProducer.send(requestMessage);
 		System.out.println("Sent request");
 		System.out.println("\tTime:       " + System.currentTimeMillis() + " ms");
@@ -59,7 +56,7 @@ public abstract class Requestor {
 	public abstract ObjectMessage getObjectMessage();
 
 	public void receiveSync() throws JMSException {
-		Message msg = replyConsumer.receive();
+        Message msg = replyConsumer.receive();
 		if (msg instanceof ObjectMessage) {
 			ObjectMessage replyMessage = (ObjectMessage) msg;
 			System.out.println("Received reply ");
