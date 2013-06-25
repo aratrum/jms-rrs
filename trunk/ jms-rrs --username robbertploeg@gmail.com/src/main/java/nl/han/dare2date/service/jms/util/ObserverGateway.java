@@ -24,10 +24,10 @@ public class ObserverGateway implements MessageListener {
 		// The Session.createConsumer method creates a nondurable subscriber if a topic is specified as the destination.
 		// A nondurable subscriber can receive only messages that are published while it is active.
 
-//        updateConsumer = session.createConsumer(updateTopic);
-//        updateConsumer.setMessageListener(this);
-        TopicSubscriber subscriber =  session.createDurableSubscriber((Topic)updateTopic, observer.getSubscriberName());
-        subscriber.setMessageListener(this);
+        updateConsumer = session.createConsumer(updateTopic);
+        updateConsumer.setMessageListener(this);
+//        TopicSubscriber subscriber =  session.createDurableSubscriber((Topic)updateTopic, observer.getSubscriberName());
+//        subscriber.setMessageListener(this);
 	}
 
 	public void onMessage(Message message) {
