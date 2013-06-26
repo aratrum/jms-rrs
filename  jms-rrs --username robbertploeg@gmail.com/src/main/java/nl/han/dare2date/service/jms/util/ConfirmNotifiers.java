@@ -10,6 +10,7 @@ import javax.naming.NamingException;
 @SuppressWarnings("unused")
 public class ConfirmNotifiers {
     public static void main(String args[]) {
+        System.out.println("Checking for messages on the UpdateTopic.");
         DurableObserver observer1 = new Notification1();
         DurableObserver observer2 = new Notification2();
         DurableObserver observer3 = new Notification3();

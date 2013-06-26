@@ -25,15 +25,15 @@ public class ConfirmRegistrationService {
         registration.setNumber(registration.getNumber());
         registration.setDate(registration.getDate());
 
-        String confirmQueue = Queues.CONFIRM_QUEUE;
+        String updateTopic = Queues.CONFIRM_QUEUE;
         String replyQueue = Queues.REPLY_QUEUE;
         String invalidQueueName = Queues.INVALID_QUEUE;
 
         try{
             System.out.println(replyQueue);
-            System.out.println(confirmQueue);
+            System.out.println(updateTopic);
             System.out.println(invalidQueueName);
-            ConfirmRequestor requestor = new ConfirmRequestor(conn, replyQueue, confirmQueue, invalidQueueName, registration);
+            ConfirmRequestor requestor = new ConfirmRequestor(conn, replyQueue, updateTopic, invalidQueueName, registration);
             System.out.println(requestor);
 
             requestor.send();
