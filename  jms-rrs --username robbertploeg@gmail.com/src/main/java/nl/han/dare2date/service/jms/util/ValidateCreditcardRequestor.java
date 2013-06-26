@@ -22,10 +22,6 @@ public class ValidateCreditcardRequestor extends Requestor {
         this.card = card;
     }
 
-    /*public void send() throws JMSException {
-        super.send();
-    }*/
-
     @Override
     public ObjectMessage getObjectMessage() {
         ObjectMessage msg;
@@ -38,10 +34,6 @@ public class ValidateCreditcardRequestor extends Requestor {
         }
         return null;
     }
-
-    /*public void receiveSync() throws JMSException {
-        super.receiveSync();
-    }*/
 
     public ValidateCreditcardResponse getResponse() {
         ObjectMessage replyMessage = getReplyMessage();

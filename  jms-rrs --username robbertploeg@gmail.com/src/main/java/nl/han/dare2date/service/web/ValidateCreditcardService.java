@@ -29,15 +29,7 @@ public class ValidateCreditcardService {
         card.setValidThrough(cc.getValidThrough());
 
         try{
-            System.out.println(card.getNumber());
-            System.out.println(card.getCvc());
-            System.out.println(card.getValidThrough());
-            System.out.println(requestQueueName);
-            System.out.println(replyQueueName);
-            System.out.println(invalidQueueName);
             ValidateCreditcardRequestor requestor = new ValidateCreditcardRequestor(conn, requestQueueName, replyQueueName, invalidQueueName, card);
-            System.out.println(requestor);
-
             requestor.send();
             requestor.receiveSync();
             ValidateCreditcardResponse response = requestor.getResponse();
