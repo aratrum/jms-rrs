@@ -23,8 +23,5 @@ public class ConfirmNotifiers {
         } catch (JMSException e) {
             e.printStackTrace();
         }
-        {
-
-        }
     }
 }
