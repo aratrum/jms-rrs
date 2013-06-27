@@ -21,9 +21,9 @@ public class ConfirmRegistrationService {
         System.out.println(conn.toString());
 
         Registration registration = new Registration();
-        registration.setSuccesFul(registration.isSuccesFul());
-        registration.setNumber(registration.getNumber());
-        registration.setDate(registration.getDate());
+        registration.setSuccesFul(reg.isSuccesFul());
+        registration.setNumber(reg.getNumber());
+        registration.setDate(reg.getDate());
 
         String updateTopic = Queues.CONFIRM_QUEUE;
         String replyQueue = Queues.REPLY_QUEUE;
@@ -33,7 +33,7 @@ public class ConfirmRegistrationService {
             System.out.println(replyQueue);
             System.out.println(updateTopic);
             System.out.println(invalidQueueName);
-            ConfirmRequestor requestor = new ConfirmRequestor(conn, replyQueue, updateTopic, invalidQueueName, registration);
+            ConfirmRequestor requestor = new ConfirmRequestor(conn, updateTopic, replyQueue, invalidQueueName, registration);
             System.out.println(requestor);
 
             requestor.send();

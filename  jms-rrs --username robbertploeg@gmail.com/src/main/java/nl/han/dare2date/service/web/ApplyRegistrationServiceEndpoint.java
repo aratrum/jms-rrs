@@ -40,7 +40,7 @@ public class ApplyRegistrationServiceEndpoint {
         }
 
         // Return the Registration into a Response to SOAP
-        registration.setSuccesFul(validationResult);
+        //registration.setSuccesFul(validationResult);
         ApplyRegistrationResponse response =
                 new ObjectFactory().createApplyRegistrationResponse();
         response.setRegistration(registration);
